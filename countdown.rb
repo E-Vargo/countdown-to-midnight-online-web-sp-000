@@ -8,3 +8,12 @@ def countdown(x)
 end
 return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_slep(x)
+  while x > 1
+    x -= 1
+    sleep 1
+    puts "#{x} SECOND(S)!"
+  end
+  return "HAPPY NEW YEAR!"
+end
