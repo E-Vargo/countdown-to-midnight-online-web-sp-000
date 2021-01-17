@@ -9,7 +9,7 @@ end
 return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_slep(x)
+def countdown_with_sleep(x)
   while x > 1
     x -= 1
     sleep 1
